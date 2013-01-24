@@ -96,4 +96,4 @@ PRODUCT_COPY_FILES += \
 # Include common makefile
 $(call inherit-product, device/samsung/smdk4412-common/common.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/t0lte/t0lte-vendor.mk)
+$(call inherit-product, vendor/samsung/t0lte/t0lte-vendor.mk)
